@@ -1,0 +1,36 @@
+.app {
+  height: 100dvh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+}
+
+th,
+td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+}
+
+thead {
+  border-bottom: 2px solid rgb(0, 0, 0);
+  background-color: #5e7bb1;
+  color: #fff;
+}
+.page-wrapper {
+  max-height: 455px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+.page-wrapper::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: #f9f9fd;
+}
+
+.page-wrapper::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #76abab;
+}

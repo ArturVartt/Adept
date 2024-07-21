@@ -1,0 +1,14 @@
+.button {
+  padding: 3px;
+  outline: none;
+  width: 100%;
+  max-width: 60px;
+}
+.delete {
+  border: 1px solid rgb(242, 6, 6);
+  background: rgb(255, 232, 232);
+}
+.add {
+  border: 1px solid rgb(6, 242, 65);
+  background: rgb(212, 255, 212);
+}
